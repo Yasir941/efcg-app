@@ -182,14 +182,6 @@ npm run dev
 
 ---
 
-## 📑 Submission Details
-
-| Field | Info |
-| :--- | :--- |
-| **Intern Name** | Yasir Azam |
-| **Internship** | Full Stack Web Development — Future Interns |
-| **Task** | 05 — Full Stack Web Application Final Polish |
-| **Deployment URL** | Local Host Environment |
 
 ---
 
@@ -198,9 +190,7 @@ npm run dev
 <table>
   <tr>
     <td align="center">
-      <b>Yasir Azam</b><br/>
-      Full Stack Web Development Intern<br/>
-      <i>Future Interns — Task 05</i><br/><br/>
+      <b>Yasir Azam</b>
       <a href="https://github.com/Yasir941">
         <img src="https://img.shields.io/badge/GitHub-Yasir941-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
@@ -214,9 +204,7 @@ npm run dev
 
 ---
 
-## 📄 License
 
-Built as part of the **Future Interns Full Stack Web Development Internship**.
 
 ---
 
