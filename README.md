@@ -135,38 +135,44 @@ git clone https://github.com/FutureInterns/EFCG-Portal.git
 cd EFCG-Portal
 ```
 
-#### 2️⃣ Server Setup
-
+#### 2️⃣ Install All Dependencies
+Instead of installing client and server dependencies separately, you can install everything from the root folder:
 ```bash
-cd server
-npm install
+npm run install:all
 ```
+
+#### 3️⃣ Server Setup
 
 Create a `.env` file inside `server/` with the following variables:
 ```env
+MONGO_URI=mongodb+srv://your_user:your_password@cluster.mongodb.net/efcg?retryWrites=true&w=majority
+JWT_SECRET=efcg_super_secret_session_key_2026
+JWT_EXPIRES_IN=8h
+EXCHANGE_RATE_API_KEY=efcg_fallback_key
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/efcg
-SESSION_SECRET=your_super_secret_session_key
+VITE_API_BASE_URL=http://localhost:5000
+```
+
+To seed the database with demo users, clients, and transactions:
+```bash
+npm run seed
 ```
 
 Start the API Server:
 ```bash
-node server.js
+cd server
+npm run dev
 ```
 > ✅ Server running on `http://localhost:5000`
 
-#### 3️⃣ Client Setup
+#### 4️⃣ Client Setup
 
-```bash
-cd ../client
-npm install
-```
-
-Start the Vite Development Server:
+Start the Vite Development Server (run from the root directory):
 ```bash
 npm run dev
 ```
-> ✅ Client running on `http://localhost:3000` (or `http://localhost:3001`)
+This runs both backend and frontend servers concurrently.
+> ✅ Client running on `http://localhost:5173` (or client dev server port)
 
 ---
 
