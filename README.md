@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Task-05-6F3BFD?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Internship-Future%20Interns%202026-FFD200?style=for-the-badge&logoColor=black" />
 <img src="https://img.shields.io/badge/Framework-React%2018%20+%20Vite-00C2FF?style=for-the-badge&logo=vite&logoColor=white" />
 <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Status-Live-06E07F?style=for-the-badge&logoColor=white" />
@@ -131,7 +129,7 @@ efcg-app/
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/FutureInterns/EFCG-Portal.git
+git clone https://github.com/Yasir941/efcg-app.git
 cd EFCG-Portal
 ```
 
